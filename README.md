@@ -27,7 +27,23 @@ Feature of 16 frames clip are represented in the form of (4096D and 1024D) were 
 ![Screenshot (82)_LI](https://user-images.githubusercontent.com/76435009/224118338-44ef1716-8086-43f4-9765-f2b481837c1e.jpg)
 
 # Results
+## True Positive and False Negative Using C3D
 
-![image](https://user-images.githubusercontent.com/76435009/224118624-baf8d482-6801-4f56-a60f-b08f1472d9e8.png)
-![image](https://user-images.githubusercontent.com/76435009/224118772-ed55d023-8c64-4bb8-b542-08f96a620305.png)
 ![gif](https://user-images.githubusercontent.com/65583643/165344458-0afe1612-d236-4959-b607-e0b7b25018bb.gif)
+![gif](https://user-images.githubusercontent.com/65583643/165344552-ef6d0943-c97e-4473-a9ac-36ade9ef0b73.gif)
+
+We have trained our model for 4000 iterations, batch size is 32, learning rate is 0.01 and we have got the sum of hinge-loss, sparsity loss and smoothness loss which is 1.7413.
+
+![image](https://user-images.githubusercontent.com/76435009/224119823-39da42d6-f809-4d45-a182-0bc32bba8158.png)
+
+## True Positive and False Negative Using I3D
+
+![gif](https://user-images.githubusercontent.com/65583643/165344458-0afe1612-d236-4959-b607-e0b7b25018bb.gif)
+![gif](https://user-images.githubusercontent.com/65583643/165345590-d53a0fe6-1174-44fb-875a-0cad3b0b4b54.gif)
+
+We have trained our I3d model for 10000 iterations, batch size is 32, learning rate is 0.01 and we have got the sum of hinge-loss, sparsity loss and smoothness loss which is 2.23.
+
+![image](https://user-images.githubusercontent.com/76435009/224120801-61833ed7-381a-43a0-b1a3-566fdb0f4722.png)
+
+# Conclusion
+The I3D Trained model gives results with more accuracy then the results generated using the C3D model.
