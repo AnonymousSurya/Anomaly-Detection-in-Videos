@@ -52,4 +52,4 @@ We have trained our I3d model for 10000 iterations, batch size is 32, learning r
 ![image](https://user-images.githubusercontent.com/76435009/224120801-61833ed7-381a-43a0-b1a3-566fdb0f4722.png)
 
 # Conclusion
-The I3D Trained model gives results with more accuracy then the results generated using the C3D model.
+The I3D Trained model gives results with more accuracy than the results generated using the C3D model.
